@@ -31,5 +31,5 @@ A simple Kotlin-based Android game inspired by "Clear the Board" — designed fo
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/NowahS/clear-the-board.git
-2. Run in Android Studio!
+      git clone https://github.com/NowahS/ClearTheBoard.git
+3. Run in Android Studio!
