@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">ClearTheBoard</string>
+    <string name="dice_roll_result">Rolled: %1$d + %2$d + %3$d = %4$d</string>
+    <string name="red">Red</string>
+    <string name="blue">Blue</string>
+    <string name="green">Green</string>
+    <string name="roll_the_dice">Roll the Dice</string>
+    <string name="roll_dice">Roll Dice</string>
+    <string name="share_game">Share Game</string>
+    <string name="undo">Undo</string>
+
+
+</resources>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center_horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Color Selection -->
+    <RadioGroup
+        android:id="@+id/colorSelector"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="16dp">
+
+        <RadioButton
+            android:id="@+id/colorRed"
+            android:layout_height="48dp"
+            android:layout_width="wrap_content"
+            android:text="@string/red"
+            android:checked="true" />
+
+        <RadioButton
+            android:id="@+id/colorBlue"
+            android:layout_height="48dp"
+            android:layout_width="wrap_content"
+            android:text="@string/blue" />
+
+        <RadioButton
+            android:id="@+id/colorGreen"
+            android:layout_height="48dp"
+            android:layout_width="wrap_content"
+            android:text="@string/green" />
+    </RadioGroup>
+
+    <!-- Dice Text -->
+    <TextView
+        android:id="@+id/textViewDice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/roll_the_dice"
+        android:textSize="18sp"
+        android:layout_marginBottom="12dp" />
+
+    <!-- Roll Button -->
+    <Button
+        android:id="@+id/rollButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/roll_dice" />
+
+    <!-- Game Board -->
+    <GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="6"
+        android:rowCount="3"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp" />
+
+    <!-- Share and Undo Buttons -->
+    <Button
+        android:id="@+id/shareButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/share_game"
+        android:layout_marginBottom="10dp" />
+
+    <Button
+        android:id="@+id/undoButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/undo" />
+</LinearLayout>
